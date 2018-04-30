@@ -6,4 +6,4 @@ set wildmenu
 set nocompatible
 set wildignore+=**/node_modules/**
 so ~/.vim/plugins.vim
-colorscheme wombat
+colorscheme solarized
