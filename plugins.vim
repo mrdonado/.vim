@@ -15,5 +15,6 @@ Plugin 'mattn/emmet-vim'
 Plugin 'w0rp/ale'
 Plugin 'itchyny/lightline.vim'
 Plugin 'maximbaz/lightline-ale'
+Plugin 'flazz/vim-colorschemes'
 call vundle#end()
 filetype plugin indent on
