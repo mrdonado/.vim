@@ -5,3 +5,4 @@ set path+=**
 set wildmenu
 set nocompatible
 set wildignore+=**/node_modules/**
+so ~/.vim/plugins.vim
