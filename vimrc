@@ -4,6 +4,7 @@ set autoindent
 set path+=**
 set wildmenu
 set nocompatible
+set linebreak
 set wildignore+=**/node_modules/**
 so ~/.vim/plugins.vim
 colorscheme solarized
