@@ -3,6 +3,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " Plugin 'VundleVim/Vundle.vim'
 " Plugin 'scrooloose/nerdtree'
+Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'danro/rename.vim'
