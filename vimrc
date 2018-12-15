@@ -7,7 +7,8 @@ set nocompatible
 set linebreak
 set wildignore+=**/node_modules/**
 so ~/.vim/plugins.vim
-colorscheme solarized
+
+colorscheme oceanblack256
 
 filetype plugin indent on
 " show existing tab with 2 spaces width
