@@ -18,6 +18,8 @@ set shiftwidth=2
 " On pressing tab, insert 2 spaces
 set expandtab
 
+set noswapfile
+
 " Change the cursor while in insert mode
 if exists('$TMUX')
   let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
