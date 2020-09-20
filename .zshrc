@@ -6,8 +6,8 @@ export ZSH=~/.oh-my-zsh
 
 export GEM_HOME=/Users/jdonado/.gem
 
-export PATH=$GEM_HOME/bin:$HOME/bin:/usr/local/bin:$PATH:$HOME/Library/Python/3.7/bin
-# export PATH=$GEM_HOME/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=$GEM_HOME/bin:$HOME/bin:/usr/local/bin:$PATH:/Users/jdonado/Library/Python/3.7/bin:~/.local/bin
+export AWS_DEFAULT_REGION=eu-central-1
 
 unsetopt inc_append_history
 unsetopt share_history
@@ -16,9 +16,13 @@ export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 nvm use default
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+
 eval "$(rbenv init -)"
 
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/
+
+export GITLAB_NPM_REGISTRY_TOKEN=zgAwd4yyydtyXU2feF_Q
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -80,6 +84,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -128,4 +134,23 @@ export SDKMAN_DIR="~/.sdkman"
 [[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
 
 #export PROMPT="%~ "
-export PS1="🤘🎸💻💰$PS1"
+# export PS1="🤘🎸💻💰$PS1"
+
+# tabtab source for serverless package
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/serverless.zsh
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/sls.zsh
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/slss.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/jdonado/Git/porsche/go/go-services/node_modules/tabtab/.completions/slss.zsh
