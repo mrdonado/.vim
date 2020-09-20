@@ -116,11 +116,11 @@ source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-alias j13="export JAVA_HOME=`/usr/libexec/java_home -v 13`; java -version"
-alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
-alias j7="export JAVA_HOME=`/usr/libexec/java_home -v 1.7`; java -version"
+# alias j13="export JAVA_HOME=`/usr/libexec/java_home -v 13`; java -version"
+# alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
+# alias j7="export JAVA_HOME=`/usr/libexec/java_home -v 1.7`; java -version"
 
-j13
+# j13
 
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
