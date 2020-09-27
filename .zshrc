@@ -9,6 +9,13 @@ export GEM_HOME=/Users/jdonado/.gem
 export PATH=$GEM_HOME/bin:$HOME/bin:/usr/local/bin:$PATH:/Users/jdonado/Library/Python/3.7/bin:~/.local/bin
 export AWS_DEFAULT_REGION=eu-central-1
 
+if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+fi
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 unsetopt inc_append_history
 unsetopt share_history
 
@@ -84,7 +91,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+#source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 
 # User configuration
 
@@ -134,7 +141,7 @@ export SDKMAN_DIR="~/.sdkman"
 [[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
 
 #export PROMPT="%~ "
-# export PS1="🤘🎸💻💰$PS1"
+export PS1="🤘🎸💻💰$PS1"
 
 # tabtab source for serverless package
 # tabtab source for serverless package
