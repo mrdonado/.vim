@@ -129,3 +129,5 @@ export SDKMAN_DIR="~/.sdkman"
 
 #export PROMPT="%~ "
 export PS1="🤘🎸💻💰$PS1"
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

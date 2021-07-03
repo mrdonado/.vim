@@ -6,7 +6,13 @@ In order to use this configuration, follow these steps:
 - Copy the file `./vimrc` of this repository to your home directory as `~/.vimrc` or create a symbolic link (e.g.: `sh ./setup-symlinks.sh`)
 - Open vim and run `:PluginInstall` in normal mode
 
-## Install powerlevel9k
+## Install oh-my-zsh plugins
+
+```sh
+brew install zsh-syntax-highlighting
+```
+
+## Install powerlevel9k (maybe)
 
 ```sh
 brew tap sambadevi/powerlevel9k
