@@ -6,10 +6,19 @@ In order to use this configuration, follow these steps:
 - Copy the file `./vimrc` of this repository to your home directory as `~/.vimrc` or create a symbolic link (e.g.: `sh ./setup-symlinks.sh`)
 - Open vim and run `:PluginInstall` in normal mode
 
-## Install oh-my-zsh plugins
+## Install plugins and dependencies (setup a new computer)
 
 ```sh
+brew tap homebrew/cask
+brew tap adoptopenjdk/openjdk
+brew update
+
+brew install --cask java
+brew install nvm
+brew install rbenv
 brew install zsh-syntax-highlighting
+nvm install --lts
+
 ```
 
 ## Install powerlevel9k (maybe)
