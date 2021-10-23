@@ -18,6 +18,7 @@ brew install --cask java
 brew install nvm
 brew install rbenv
 brew install zsh-syntax-highlighting
+brew install reattach-to-user-namespace
 nvm install --lts
 
 ```
